@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listar Disciplinas</title>
+</head>
+<body>
+    <h1>Disciplinas</h1>
+    <ul>
+        {% for disciplina in disciplinas %}
+            <li>{{ disciplina.nome }} - {{ disciplina.codigo }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'home' %}">Voltar</a>
+</body>
+</html>

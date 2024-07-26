@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sistema de Controle Acadêmico</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Sistema de Controle Acadêmico</h1>
+    <nav>
+        <ul>
+            <li><a href="{% url 'listar_estudantes' %}">Listar Estudantes</a></li>
+            <li><a href="{% url 'adicionar_estudante' %}">Adicionar Estudante</a></li>
+            <li><a href="{% url 'listar_disciplinas' %}">Listar Disciplinas</a></li>
+            <li><a href="{% url 'adicionar_disciplina' %}">Adicionar Disciplina</a></li>
+            <li><a href="{% url 'listar_professores' %}">Listar Professores</a></li>
+            <li><a href="{% url 'adicionar_professor' %}">Adicionar Professor</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
